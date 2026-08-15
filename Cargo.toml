@@ -1,0 +1,11 @@
+[package]
+name = "axiom-kv-lab"
+version = "0.1.0"
+edition = "2021"
+description = "Self-evolving key-value laboratory for Axiom"
+license = "MIT"
+publish = false
+
+[dependencies]
+anyhow = "1"
+
