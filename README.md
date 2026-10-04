@@ -1,9 +1,13 @@
 # axiom-kv-lab v0.2.0
 
-The self-evolution experiment now rejects **two different architectural failures** before promotion:
+Эксперимент self-evolution теперь отвергает **два разных архитектурных дефекта** до promotion:
 
-1. `volatile-v1` fails crash persistence;
-2. `journaled-open-v2` persists state but fails authorization;
-3. `journaled-cap-v3` satisfies the current model and is promoted.
+1. `volatile-v1` нарушает сохранность после crash;
+2. `journaled-open-v2` сохраняет состояние, но нарушает авторизацию;
+3. `journaled-cap-v3` удовлетворяет текущей модели и допускается к promotion.
 
-Run `python modelcheck.py`. The experiment writes a machine-readable evolution history and promotion receipt.
+Запуск: `python modelcheck.py`. Эксперимент записывает машиночитаемую историю эволюции и promotion receipt.
+
+## Связанные исследования
+
+Этот компонент входит в исследовательский проект [Axiom](https://github.com/localzet/axiom-stack). Все компоненты собраны по теме [localzet-axiom](https://github.com/topics/localzet-axiom). Основной язык документации — русский. Исследовательские результаты и ограничения не означают готовность к промышленному применению.
