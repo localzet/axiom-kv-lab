@@ -7,3 +7,7 @@
 3. `journaled-cap-v3` удовлетворяет текущей модели и допускается к promotion.
 
 Запуск: `python modelcheck.py`. Эксперимент записывает машиночитаемую историю эволюции и promotion receipt.
+
+## Авторство
+
+Сопровождающий собственных изменений: **Ivan Zorin (localzet)** — <creator@localzet.com> · https://www.localzet.com. Copyright © 2026 Localzet Group. Исходное авторство и лицензии сторонних компонентов сохраняются. См. [AUTHORS](.github/AUTHORS.md).
